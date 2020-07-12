@@ -1,16 +1,29 @@
 package org.techmeskills.aqa5.auf.pages;
 
-import org.openqa.selenium.By;
-import org.techmeskills.aqa5.auf.baseEntity.BasePage;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.techmeskills.aqa5.auf.baseEntity.BasePageFactory;
 import org.techmeskills.aqa5.auf.core.BrowsersService;
-import org.techmeskills.aqa5.auf.elements.UIElement;
 
-public class AddProjectPage extends BasePage {
-    protected By addProjectButtonSelector = By.id("accept");
-    protected By nameSelector = By.id("name");
-    protected By suiteModeSingleSelector = By.id("suite_mode_single");
-    protected By suiteModeSingleBaselineSelector = By.id("suite_mode_single_baseline");
-    protected By suiteModeMultiSelector = By.id("suite_mode_multi");
+public class AddProjectPage extends BasePageFactory {
+
+    @FindBy(id = "accept")
+    public WebElement pageIdentifier;
+
+    @FindBy(id = "accept")
+    public WebElement addProjectButton;
+
+    @FindBy(id = "name")
+    public WebElement nameField;
+
+    @FindBy(id = "suite_mode_single")
+    public WebElement suiteModeSingleOption;
+
+    @FindBy(id = "suite_mode_single_baseline")
+    public WebElement suiteModeSingleBaselineOption;
+
+    @FindBy(id = "suite_mode_multi")
+    public WebElement suiteModeMultiSelectorOption;
 
     public AddProjectPage(BrowsersService browsersService) {
         super(browsersService, false);
@@ -22,27 +35,7 @@ public class AddProjectPage extends BasePage {
     }
 
     public boolean isPageOpened() {
-        return new UIElement(browsersService, By.id("accept")).isDisplayed();
-    }
-
-    public UIElement getAddProjectButton() {
-        return new UIElement(browsersService, addProjectButtonSelector);
-    }
-
-    public UIElement getNameField() {
-        return new UIElement(browsersService, nameSelector);
-    }
-
-    public UIElement getSuiteModeSingleOption() {
-        return new UIElement(browsersService, suiteModeSingleSelector);
-    }
-
-    public UIElement getSuiteModeSingleBaselineOption() {
-        return new UIElement(browsersService, suiteModeSingleBaselineSelector);
-    }
-
-    public UIElement getSuiteModeMultiSelectorOption()  {
-        return new UIElement(browsersService, suiteModeMultiSelector);
+        return pageIdentifier.isDisplayed();
     }
 
 

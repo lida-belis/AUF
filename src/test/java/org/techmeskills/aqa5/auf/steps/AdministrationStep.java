@@ -17,12 +17,11 @@ public class AdministrationStep extends BaseStep {
     public void deleteProject(String projectName) {
         AdministrationPage administrationPage = new AdministrationPage(browsersService, true);
         UIElement projectLink = administrationPage.getProjectsLink();
-        projectLink.click();
 
-        ProjectsPage projectsPage = new ProjectsPage(browsersService, false);
+        ProjectsPage projectsPage = administrationPage.clickProjectLink();
         projectsPage.getDeleteIcon(projectName).click();
-        projectsPage.getConfirmationYesCheckbox().click();
-        projectsPage.getConfirmationOkButton().click();
+        projectsPage.confirmationYesCheckbox.click();
+        projectsPage.confirmationOkButton.click();
 
         browsersService.getWaiters().waitForInvisibility(projectLink);
     }

@@ -1,11 +1,19 @@
 package org.techmeskills.aqa5.auf.pages.administration;
 
 import org.openqa.selenium.By;
-import org.techmeskills.aqa5.auf.baseEntity.BasePage;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.techmeskills.aqa5.auf.baseEntity.BasePageFactory;
 import org.techmeskills.aqa5.auf.core.BrowsersService;
 import org.techmeskills.aqa5.auf.elements.UIElement;
 
-public class AdministrationPage extends BasePage {
+public class AdministrationPage extends BasePageFactory {
+    @FindBy(xpath = "//h1[. = 'Administration']")
+    public WebElement pageIdentifier;
+
+    @FindBy(xpath = "//div[@class = 'info-box-title']/a[. = 'Projects']")
+    public WebElement projectsLink;
+
     protected By projectLinkSelector = By.xpath("//div[@class = 'info-box-title']/a[. = 'Projects']");
 
     public AdministrationPage(BrowsersService browsersService, boolean openPageByUrl) {
@@ -18,10 +26,15 @@ public class AdministrationPage extends BasePage {
     }
 
     public boolean isPageOpened() {
-        return new UIElement(browsersService, By.xpath("//h1[. = 'Administration']")).isDisplayed();
+        return pageIdentifier.isDisplayed();
     }
 
     public UIElement getProjectsLink() {
         return new UIElement(browsersService, projectLinkSelector);
+    }
+
+    public ProjectsPage clickProjectLink() {
+        projectsLink.click();
+        return new ProjectsPage(browsersService, false);
     }
 }

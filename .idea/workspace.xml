@@ -1,9 +1,129 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b62e820a-2459-413c-9fa0-d410c043fc1b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/techmeskills/aqa5/auf/baseEntity/BasePageFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/techmeskills/aqa5/auf/pages/AddProjectPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/techmeskills/aqa5/auf/pages/AddProjectPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/techmeskills/aqa5/auf/pages/DashboardPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/techmeskills/aqa5/auf/pages/DashboardPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/techmeskills/aqa5/auf/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/techmeskills/aqa5/auf/pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/techmeskills/aqa5/auf/pages/ProjectOverviewPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/techmeskills/aqa5/auf/pages/ProjectOverviewPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/techmeskills/aqa5/auf/pages/administration/AdministrationPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/techmeskills/aqa5/auf/pages/administration/AdministrationPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/techmeskills/aqa5/auf/pages/administration/ProjectsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/techmeskills/aqa5/auf/pages/administration/ProjectsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/techmeskills/aqa5/auf/steps/LoginStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/techmeskills/aqa5/auf/steps/LoginStep.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/techmeskills/aqa5/auf/steps/ProjectStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/techmeskills/aqa5/auf/steps/ProjectStep.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/TestNG.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/TestNG.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1eahM5YwonlgVtII19uCgKJCTCP" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="D:/" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.techmeskills.aqa5.auf.baseEntity" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="SmokeTest1" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestRail QA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.techmeskills.aqa5.auf.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.techmeskills.aqa5.auf.tests" />
+      <option name="MAIN_CLASS_NAME" value="org.techmeskills.aqa5.auf.tests.SmokeTest1" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.SmokeTest1" />
+        <item itemvalue="TestNG.SmokeTest1" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b62e820a-2459-413c-9fa0-d410c043fc1b" name="Default Changelist" comment="" />
+      <created>1594565559759</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1594565559759</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="603" y="292" key="Github.ShareDialog" timestamp="1594565662321">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="603" y="292" key="Github.ShareDialog/0.0.1536.824@0.0.1536.824" timestamp="1594565662321" />
+    <state x="559" y="118" key="Github.UntrackedFilesDialog" timestamp="1594565669229">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="559" y="118" key="Github.UntrackedFilesDialog/0.0.1536.824@0.0.1536.824" timestamp="1594565669229" />
+    <state width="730" height="208" key="GridCell.Tab.0.bottom" timestamp="1594567840835">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="730" height="208" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1594567840835" />
+    <state width="730" height="208" key="GridCell.Tab.0.center" timestamp="1594567840835">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="730" height="208" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1594567840835" />
+    <state width="730" height="208" key="GridCell.Tab.0.left" timestamp="1594567840835">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="730" height="208" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1594567840835" />
+    <state width="730" height="208" key="GridCell.Tab.0.right" timestamp="1594567840835">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="730" height="208" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1594567840835" />
+    <state width="730" height="258" key="GridCell.Tab.1.bottom" timestamp="1594567282526">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="730" height="258" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1594567282526" />
+    <state width="730" height="258" key="GridCell.Tab.1.center" timestamp="1594567282526">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="730" height="258" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1594567282526" />
+    <state width="730" height="258" key="GridCell.Tab.1.left" timestamp="1594567282526">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="730" height="258" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1594567282526" />
+    <state width="730" height="258" key="GridCell.Tab.1.right" timestamp="1594567282526">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="730" height="258" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1594567282526" />
+    <state x="204" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1594565761724">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="204" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1594565761724" />
   </component>
 </project>

@@ -5,7 +5,6 @@ import org.techmeskills.aqa5.auf.baseEntity.BaseStep;
 import org.techmeskills.aqa5.auf.core.BrowsersService;
 import org.techmeskills.aqa5.auf.pages.AddProjectPage;
 import org.techmeskills.aqa5.auf.pages.DashboardPage;
-import org.techmeskills.aqa5.auf.pages.LoginPage;
 
 public class ProjectStep extends BaseStep {
 
@@ -16,23 +15,22 @@ public class ProjectStep extends BaseStep {
     @Step
     public void createNewProject(String name, String type) {
         DashboardPage dashboardPage = new DashboardPage(browsersService);
-        dashboardPage.getAddProjectButton().click();
 
-        AddProjectPage addProjectPage = new AddProjectPage(browsersService);
-        addProjectPage.getNameField().sendKeys(name);
+        AddProjectPage addProjectPage = dashboardPage.clickAddProjectButton();
+        addProjectPage.nameField.sendKeys(name);
 
         switch (type) {
             case "Use a single repository for all cases (recommended)":
-                addProjectPage.getSuiteModeSingleOption().click();
+                addProjectPage.suiteModeSingleOption.click();
                 break;
             case "Use a single repository with baseline support":
-                addProjectPage.getSuiteModeSingleBaselineOption().click();
+                addProjectPage.suiteModeSingleBaselineOption.click();
                 break;
             case "Use multiple test suites to manage cases":
-                addProjectPage.getSuiteModeMultiSelectorOption().click();
+                addProjectPage.suiteModeMultiSelectorOption.click();
                 break;
         }
 
-        addProjectPage.getAddProjectButton().submit();
+        addProjectPage.addProjectButton.submit();
     }
 }
