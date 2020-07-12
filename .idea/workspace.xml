@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b62e820a-2459-413c-9fa0-d410c043fc1b" name="Default Changelist" comment="PageFactory_2">
+    <list default="true" id="b62e820a-2459-413c-9fa0-d410c043fc1b" name="Default Changelist" comment="ChainOfInvocations_3">
       <change afterPath="$PROJECT_DIR$/src/main/java/org/techmeskills/aqa5/auf/baseEntity/BasePageFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/techmeskills/aqa5/auf/pages/ProjectOverviewPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/techmeskills/aqa5/auf/pages/ProjectOverviewPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/TestNG.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/TestNG.xml" afterDir="false" />
@@ -89,6 +89,17 @@
       <updated>1594565559759</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="PageFactory" />
