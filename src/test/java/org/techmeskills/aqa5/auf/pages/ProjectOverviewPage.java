@@ -4,7 +4,6 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.techmeskills.aqa5.auf.baseEntity.BasePageFactory;
 import org.techmeskills.aqa5.auf.core.BrowsersService;
-import org.techmeskills.aqa5.auf.elements.UIElement;
 
 public class ProjectOverviewPage extends BasePageFactory {
 
