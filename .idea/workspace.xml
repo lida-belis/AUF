@@ -1,16 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a084e8cc-c5ee-4a7b-8c4d-6e28f01732c6" name="Default Changelist" comment="ChainOfInvocations">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/techmeskills/aqa5/auf/baseEntity/BasePageFactory.java" afterDir="false" />
+    <list default="true" id="a084e8cc-c5ee-4a7b-8c4d-6e28f01732c6" name="Default Changelist" comment="ChainOfInvocations_2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/techmeskills/aqa5/auf/pages/AddProjectPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/techmeskills/aqa5/auf/pages/AddProjectPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/techmeskills/aqa5/auf/pages/DashboardPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/techmeskills/aqa5/auf/pages/DashboardPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/techmeskills/aqa5/auf/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/techmeskills/aqa5/auf/pages/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/techmeskills/aqa5/auf/pages/administration/AdministrationPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/techmeskills/aqa5/auf/pages/administration/AdministrationPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/techmeskills/aqa5/auf/steps/AdministrationStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/techmeskills/aqa5/auf/steps/AdministrationStep.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/techmeskills/aqa5/auf/steps/LoginStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/techmeskills/aqa5/auf/steps/LoginStep.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/techmeskills/aqa5/auf/steps/ProjectStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/techmeskills/aqa5/auf/steps/ProjectStep.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,21 +84,37 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="730" height="205" key="GridCell.Tab.0.bottom" timestamp="1594571274233">
+    <state width="730" height="258" key="GridCell.Tab.0.bottom" timestamp="1594576574388">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="730" height="205" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1594571274233" />
-    <state width="730" height="205" key="GridCell.Tab.0.center" timestamp="1594571274233">
+    <state width="730" height="258" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1594576574388" />
+    <state width="730" height="258" key="GridCell.Tab.0.center" timestamp="1594576574388">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="730" height="205" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1594571274233" />
-    <state width="730" height="205" key="GridCell.Tab.0.left" timestamp="1594571274233">
+    <state width="730" height="258" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1594576574388" />
+    <state width="730" height="258" key="GridCell.Tab.0.left" timestamp="1594576574388">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="730" height="205" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1594571274233" />
-    <state width="730" height="205" key="GridCell.Tab.0.right" timestamp="1594571274233">
+    <state width="730" height="258" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1594576574388" />
+    <state width="730" height="258" key="GridCell.Tab.0.right" timestamp="1594576574388">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="730" height="205" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1594571274233" />
+    <state width="730" height="258" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1594576574388" />
+    <state width="730" height="258" key="GridCell.Tab.1.bottom" timestamp="1594576574388">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="730" height="258" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1594576574388" />
+    <state width="730" height="258" key="GridCell.Tab.1.center" timestamp="1594576574388">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="730" height="258" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1594576574388" />
+    <state width="730" height="258" key="GridCell.Tab.1.left" timestamp="1594576574388">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="730" height="258" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1594576574388" />
+    <state width="730" height="258" key="GridCell.Tab.1.right" timestamp="1594576574388">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="730" height="258" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1594576574388" />
   </component>
 </project>
