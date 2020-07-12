@@ -30,6 +30,6 @@ public class SmokeTest2 extends BaseTest {
         administrationStep.deleteProject("PR02");
 
         ProjectsPage projectsPage = new ProjectsPage(browsersService, false);
-        Assert.assertEquals(projectsPage.getMessageSuccessText(), "Successfully deleted the project.");
+        Assert.assertEquals(projectsPage.messageSuccessText, "Successfully deleted the project.");
     }
 }

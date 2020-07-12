@@ -7,9 +7,4 @@
             <class name="org.techmeskills.aqa5.auf.tests.SmokeTest2"/>
         </classes>
     </test>
-    <test name="Standart Test">
-        <classes>
-            <class name="org.techmeskills.aqa5.auf.tests.SmokeTest3"/>
-        </classes>
-    </test>
 </suite>

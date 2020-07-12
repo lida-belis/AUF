@@ -1,6 +1,7 @@
 package org.techmeskills.aqa5.auf.steps;
 
 import io.qameta.allure.Step;
+import org.openqa.selenium.WebElement;
 import org.techmeskills.aqa5.auf.baseEntity.BaseStep;
 import org.techmeskills.aqa5.auf.core.BrowsersService;
 import org.techmeskills.aqa5.auf.elements.UIElement;
@@ -16,13 +17,13 @@ public class AdministrationStep extends BaseStep {
     @Step
     public void deleteProject(String projectName) {
         AdministrationPage administrationPage = new AdministrationPage(browsersService, true);
-        UIElement projectLink = administrationPage.getProjectsLink();
+        WebElement projectLink = administrationPage.projectsLink;
         projectLink.click();
 
         ProjectsPage projectsPage = new ProjectsPage(browsersService, false);
         projectsPage.getDeleteIcon(projectName).click();
-        projectsPage.getConfirmationYesCheckbox().click();
-        projectsPage.getConfirmationOkButton().click();
+        projectsPage.confirmationYesCheckbox.click();
+        projectsPage.confirmationOkButton.click();
 
         browsersService.getWaiters().waitForInvisibility(projectLink);
     }
