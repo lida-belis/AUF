@@ -1,6 +1,5 @@
 package org.techmeskills.aqa5.auf.pages;
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.techmeskills.aqa5.auf.baseEntity.BasePage;

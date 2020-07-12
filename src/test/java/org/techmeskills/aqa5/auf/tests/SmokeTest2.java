@@ -21,7 +21,8 @@ public class SmokeTest2 extends BaseTest {
         projectStep.createNewProject("PR02", "Use a single repository with baseline support");
 
         Assert.assertTrue(browsersService.getDriver().getTitle().equalsIgnoreCase("PR02 - TestRail")
-                || browsersService.getDriver().getTitle().equalsIgnoreCase("Projects - TestRail"));  ;
+                || browsersService.getDriver().getTitle().equalsIgnoreCase("Projects - TestRail"));
+        ;
     }
 
     @Test(dependsOnMethods = "createProject")

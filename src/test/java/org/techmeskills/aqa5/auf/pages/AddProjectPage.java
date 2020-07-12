@@ -37,6 +37,4 @@ public class AddProjectPage extends BasePageFactory {
     public boolean isPageOpened() {
         return pageIdentifier.isDisplayed();
     }
-
-
 }

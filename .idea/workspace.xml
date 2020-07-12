@@ -1,17 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b62e820a-2459-413c-9fa0-d410c043fc1b" name="Default Changelist" comment="">
+    <list default="true" id="b62e820a-2459-413c-9fa0-d410c043fc1b" name="Default Changelist" comment="PageFactory">
       <change afterPath="$PROJECT_DIR$/src/main/java/org/techmeskills/aqa5/auf/baseEntity/BasePageFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/techmeskills/aqa5/auf/pages/AddProjectPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/techmeskills/aqa5/auf/pages/AddProjectPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/techmeskills/aqa5/auf/pages/DashboardPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/techmeskills/aqa5/auf/pages/DashboardPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/techmeskills/aqa5/auf/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/techmeskills/aqa5/auf/pages/LoginPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/techmeskills/aqa5/auf/pages/ProjectOverviewPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/techmeskills/aqa5/auf/pages/ProjectOverviewPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/techmeskills/aqa5/auf/pages/administration/AdministrationPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/techmeskills/aqa5/auf/pages/administration/AdministrationPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/techmeskills/aqa5/auf/pages/administration/ProjectsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/techmeskills/aqa5/auf/pages/administration/ProjectsPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/techmeskills/aqa5/auf/steps/LoginStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/techmeskills/aqa5/auf/steps/LoginStep.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/techmeskills/aqa5/auf/steps/ProjectStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/techmeskills/aqa5/auf/steps/ProjectStep.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/techmeskills/aqa5/auf/tests/SmokeTest2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/techmeskills/aqa5/auf/tests/SmokeTest2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/TestNG.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/TestNG.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,7 +36,7 @@
       <recent name="org.techmeskills.aqa5.auf.baseEntity" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="TestNG.SmokeTest2">
     <configuration name="SmokeTest1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestRail QA" />
       <extension name="coverage">
@@ -60,8 +54,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SmokeTest2" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestRail QA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.techmeskills.aqa5.auf.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.techmeskills.aqa5.auf.tests" />
+      <option name="MAIN_CLASS_NAME" value="org.techmeskills.aqa5.auf.tests.SmokeTest2" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.SmokeTest2" />
         <item itemvalue="TestNG.SmokeTest1" />
         <item itemvalue="TestNG.SmokeTest1" />
       </list>
@@ -79,6 +91,10 @@
       <updated>1594565559759</updated>
     </task>
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="PageFactory" />
+    <option name="LAST_COMMIT_MESSAGE" value="PageFactory" />
   </component>
   <component name="WindowStateProjectService">
     <state x="603" y="292" key="Github.ShareDialog" timestamp="1594565662321">
