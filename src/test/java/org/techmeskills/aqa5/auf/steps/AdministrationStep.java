@@ -4,7 +4,6 @@ import io.qameta.allure.Step;
 import org.openqa.selenium.WebElement;
 import org.techmeskills.aqa5.auf.baseEntity.BaseStep;
 import org.techmeskills.aqa5.auf.core.BrowsersService;
-import org.techmeskills.aqa5.auf.elements.UIElement;
 import org.techmeskills.aqa5.auf.pages.administration.AdministrationPage;
 import org.techmeskills.aqa5.auf.pages.administration.ProjectsPage;
 
