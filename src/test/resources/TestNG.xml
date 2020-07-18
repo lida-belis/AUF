@@ -3,8 +3,8 @@
 <suite name="Parallel Suite">
     <test name="Parallel Test" thread-count="2" parallel="classes">
         <classes>
-            <class name="org.techmeskills.aqa5.auf.tests.SmokeTest1"/>
-            <class name="org.techmeskills.aqa5.auf.tests.SmokeTest2"/>
+            <class name="org.techmeskills.aqa5.auf.uiTests.SmokeTest1"/>
+            <class name="org.techmeskills.aqa5.auf.uiTests.SmokeTest2"/>
         </classes>
     </test>
 </suite>

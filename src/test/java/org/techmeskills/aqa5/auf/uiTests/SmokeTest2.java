@@ -1,4 +1,4 @@
-package org.techmeskills.aqa5.auf.tests;
+package org.techmeskills.aqa5.auf.uiTests;
 
 import org.techmeskills.aqa5.auf.baseEntity.BaseTest;
 import org.techmeskills.aqa5.auf.pages.administration.ProjectsPage;
