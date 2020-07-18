@@ -3,11 +3,8 @@ package org.techmeskills.aqa5.auf.baseEntity;
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import org.apache.http.protocol.HTTP;
-import org.techmeskills.aqa5.auf.core.BrowsersService;
-import org.techmeskills.aqa5.auf.core.ReadProperties;
 import org.techmeskills.aqa5.auf.core.ReadPropertiesApi;
 import org.techmeskills.aqa5.auf.utils.Listener;
-import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Listeners;
 
