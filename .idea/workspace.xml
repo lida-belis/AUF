@@ -19,9 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a084e8cc-c5ee-4a7b-8c4d-6e28f01732c6" name="Default Changelist" comment="REST_API">
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/techmeskills/aqa5/auf/baseEntity/BaseApiTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/techmeskills/aqa5/auf/baseEntity/BaseApiTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/techmeskills/aqa5/auf/core/BrowsersService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/techmeskills/aqa5/auf/core/BrowsersService.java" afterDir="false" />
+    <list default="true" id="a084e8cc-c5ee-4a7b-8c4d-6e28f01732c6" name="Default Changelist" comment="REST_API_2">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/techmeskills/aqa5/auf/apiTest/apiTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/techmeskills/aqa5/auf/apiTest/apiTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,24 +62,7 @@
       <recent name="D:\Курсы\Project\AUF-advBasePage\src\test\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.apiTest.loginUnsuccessful">
-    <configuration name="apiTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TestRail QA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.techmeskills.aqa5.auf.apiTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.techmeskills.aqa5.auf.apiTest" />
-      <option name="MAIN_CLASS_NAME" value="org.techmeskills.aqa5.auf.apiTest.apiTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.apiTest.delayedResponse">
     <configuration name="apiTest.delayedResponse" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestRail QA" />
       <extension name="coverage">
@@ -134,6 +117,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="apiTest.registerSuccessful" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestRail QA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.techmeskills.aqa5.auf.apiTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.techmeskills.aqa5.auf.apiTest" />
+      <option name="MAIN_CLASS_NAME" value="org.techmeskills.aqa5.auf.apiTest.apiTest" />
+      <option name="METHOD_NAME" value="registerSuccessful" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="apiTest.registerUnsuccessful" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestRail QA" />
       <extension name="coverage">
@@ -154,11 +155,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.apiTest.loginUnsuccessful" />
-        <item itemvalue="TestNG.apiTest.registerUnsuccessful" />
-        <item itemvalue="TestNG.apiTest" />
         <item itemvalue="TestNG.apiTest.delayedResponse" />
+        <item itemvalue="TestNG.apiTest.loginUnsuccessful" />
         <item itemvalue="TestNG.apiTest.loginSuccessful" />
+        <item itemvalue="TestNG.apiTest.registerUnsuccessful" />
+        <item itemvalue="TestNG.apiTest.registerSuccessful" />
       </list>
     </recent_temporary>
   </component>
@@ -180,7 +181,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595082891556</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="REST_API_2">
+      <created>1595083143799</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1595083143799</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -197,29 +205,30 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="REST_API" />
-    <option name="LAST_COMMIT_MESSAGE" value="REST_API" />
+    <MESSAGE value="REST_API_2" />
+    <option name="LAST_COMMIT_MESSAGE" value="REST_API_2" />
   </component>
   <component name="WindowStateProjectService">
     <state x="133" y="162" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1595072863671">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="133" y="162" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1595072863671" />
-    <state width="1493" height="293" key="GridCell.Tab.0.bottom" timestamp="1595082882749">
+    <state width="718" height="293" key="GridCell.Tab.0.bottom" timestamp="1595098232345">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="293" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1595082882749" />
-    <state width="1493" height="293" key="GridCell.Tab.0.center" timestamp="1595082882749">
+    <state width="718" height="293" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1595098232345" />
+    <state width="718" height="293" key="GridCell.Tab.0.center" timestamp="1595098232345">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="293" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1595082882749" />
-    <state width="1493" height="293" key="GridCell.Tab.0.left" timestamp="1595082882749">
+    <state width="718" height="293" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1595098232345" />
+    <state width="718" height="293" key="GridCell.Tab.0.left" timestamp="1595098232345">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="293" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1595082882749" />
-    <state width="1493" height="293" key="GridCell.Tab.0.right" timestamp="1595082882749">
+    <state width="718" height="293" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1595098232345" />
+    <state width="718" height="293" key="GridCell.Tab.0.right" timestamp="1595098232345">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="293" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1595082882749" />
+    <state width="718" height="293" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1595098232345" />
     <state width="730" height="258" key="GridCell.Tab.1.bottom" timestamp="1594576574388">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -236,10 +245,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="730" height="258" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1594576574388" />
-    <state x="361" y="132" key="Vcs.Push.Dialog.v2" timestamp="1595082893550">
+    <state x="361" y="132" key="Vcs.Push.Dialog.v2" timestamp="1595083145099">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="132" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1595082893550" />
+    <state x="361" y="132" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1595083145099" />
     <state x="60" y="189" key="run.anything.popup" timestamp="1595076262400">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

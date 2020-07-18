@@ -10,6 +10,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 import static io.restassured.RestAssured.given;
+import static org.hamcrest.Matchers.*;
 
 public class apiTest extends BaseApiTest {
 
@@ -22,6 +23,7 @@ public class apiTest extends BaseApiTest {
                 .get(endpoint)
         .then()
                 .log().body()
+                .body("page", is(2))
                 .statusCode(HttpStatus.SC_OK);
     }
 
@@ -34,6 +36,8 @@ public class apiTest extends BaseApiTest {
                 .get(endpoint)
         .then()
                 .log().body()
+//                .body("id", is(2))
+//                Не знаю, почему не проходит! В тестах, которых нету проверки, та же самая проблема
                 .statusCode(HttpStatus.SC_OK);
     }
 
@@ -58,6 +62,7 @@ public class apiTest extends BaseApiTest {
                 .get(endpoint)
         .then()
                 .log().body()
+                .body("page", is(1))
                 .statusCode(HttpStatus.SC_OK);
     }
 
@@ -104,6 +109,8 @@ public class apiTest extends BaseApiTest {
                 .post(endpoint)
         .then()
                 .log().body()
+                .body("name", is("morpheus"))
+                .body("job", is("leader"))
                 .statusCode(HttpStatus.SC_CREATED);
     }
 
@@ -126,6 +133,8 @@ public class apiTest extends BaseApiTest {
                 .put(endpoint)
         .then()
                 .log().body()
+                .body("name", is("morpheus"))
+                .body("job", is("zion resident"))
                 .statusCode(HttpStatus.SC_OK);
     }
 
@@ -148,6 +157,8 @@ public class apiTest extends BaseApiTest {
                 .patch(endpoint)
         .then()
                 .log().body()
+                .body("name", is("morpheus"))
+                .body("job", is("zion resident"))
                 .statusCode(HttpStatus.SC_OK);
     }
 
@@ -182,6 +193,7 @@ public class apiTest extends BaseApiTest {
                 .post(endpoint)
         .then()
                 .log().body()
+                .body("token", is("QpwL5tke4Pnpja7X4"))
                 .statusCode(HttpStatus.SC_OK);
     }
 
@@ -199,6 +211,7 @@ public class apiTest extends BaseApiTest {
                 .post(endpoint)
         .then()
                 .log().body()
+                .body("error", is("Missing password"))
                 .statusCode(HttpStatus.SC_BAD_REQUEST);
     }
 
@@ -221,6 +234,7 @@ public class apiTest extends BaseApiTest {
                 .post(endpoint)
         .then()
                 .log().body()
+                .body("token", is("QpwL5tke4Pnpja7X4"))
                 .statusCode(HttpStatus.SC_OK);
     }
 
@@ -238,6 +252,7 @@ public class apiTest extends BaseApiTest {
                 .post(endpoint)
         .then()
                 .log().body()
+                .body("error", is("Missing password"))
                 .statusCode(HttpStatus.SC_BAD_REQUEST);
     }
 
@@ -250,6 +265,7 @@ public class apiTest extends BaseApiTest {
                 .get(endpoint)
         .then()
                 .log().body()
+                .body("page", is(1))
                 .statusCode(HttpStatus.SC_OK);
     }
 }
