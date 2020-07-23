@@ -19,10 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a084e8cc-c5ee-4a7b-8c4d-6e28f01732c6" name="Default Changelist" comment="Add LoginStepLombok, add ProjectLombok, add UserLombok and SmokeTest_Lombok">
+    <list default="true" id="a084e8cc-c5ee-4a7b-8c4d-6e28f01732c6" name="Default Changelist" comment="Add_Some_Checks_To_The apiTest">
       <change afterPath="$PROJECT_DIR$/src/test/java/org/techmeskills/aqa5/auf/apiTest/apiTestLombok.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/techmeskills/aqa5/auf/apiTest/apiTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/techmeskills/aqa5/auf/apiTest/apiTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,6 +62,7 @@
       <recent name="org.techmeskills.aqa5.auf.models" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.techmeskills.aqa5.auf.apiTest" />
       <recent name="org.techmeskills.aqa5.auf.steps" />
       <recent name="org.techmeskills.aqa5.auf.models" />
       <recent name="org.techmeskills.aqa5.auf.core" />
@@ -72,26 +72,8 @@
       <recent name="D:\Курсы\Project\AUF-advBasePage\src\test\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.apiTest.singleResource">
-    <configuration name="SmokeTest_Lombok.login" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TestRail QA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.techmeskills.aqa5.auf.uiTests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.techmeskills.aqa5.auf.uiTests" />
-      <option name="MAIN_CLASS_NAME" value="org.techmeskills.aqa5.auf.uiTests.SmokeTest_Lombok" />
-      <option name="METHOD_NAME" value="login" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="apiTest.delayedResponse" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.apiTestLombok.loginUnsuccessful">
+    <configuration name="apiTestLombok.loginSuccessful" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestRail QA" />
       <extension name="coverage">
         <pattern>
@@ -100,8 +82,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.techmeskills.aqa5.auf.apiTest" />
-      <option name="MAIN_CLASS_NAME" value="org.techmeskills.aqa5.auf.apiTest.apiTest" />
-      <option name="METHOD_NAME" value="delayedResponse" />
+      <option name="MAIN_CLASS_NAME" value="org.techmeskills.aqa5.auf.apiTest.apiTestLombok" />
+      <option name="METHOD_NAME" value="loginSuccessful" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -109,7 +91,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="apiTest.singleResource" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="apiTestLombok.loginUnsuccessful" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestRail QA" />
       <extension name="coverage">
         <pattern>
@@ -118,8 +100,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.techmeskills.aqa5.auf.apiTest" />
-      <option name="MAIN_CLASS_NAME" value="org.techmeskills.aqa5.auf.apiTest.apiTest" />
-      <option name="METHOD_NAME" value="singleResource" />
+      <option name="MAIN_CLASS_NAME" value="org.techmeskills.aqa5.auf.apiTest.apiTestLombok" />
+      <option name="METHOD_NAME" value="loginUnsuccessful" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -127,7 +109,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="apiTest.singleUser" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="apiTestLombok.registerSuccessful" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestRail QA" />
       <extension name="coverage">
         <pattern>
@@ -136,8 +118,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.techmeskills.aqa5.auf.apiTest" />
-      <option name="MAIN_CLASS_NAME" value="org.techmeskills.aqa5.auf.apiTest.apiTest" />
-      <option name="METHOD_NAME" value="singleUser" />
+      <option name="MAIN_CLASS_NAME" value="org.techmeskills.aqa5.auf.apiTest.apiTestLombok" />
+      <option name="METHOD_NAME" value="registerSuccessful" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -145,7 +127,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="apiTest.singleUserNotFound" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="apiTestLombok.registerUnsuccessful" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestRail QA" />
       <extension name="coverage">
         <pattern>
@@ -154,8 +136,26 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.techmeskills.aqa5.auf.apiTest" />
-      <option name="MAIN_CLASS_NAME" value="org.techmeskills.aqa5.auf.apiTest.apiTest" />
-      <option name="METHOD_NAME" value="singleUserNotFound" />
+      <option name="MAIN_CLASS_NAME" value="org.techmeskills.aqa5.auf.apiTest.apiTestLombok" />
+      <option name="METHOD_NAME" value="registerUnsuccessful" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="apiTestLombok.updatePatch" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestRail QA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.techmeskills.aqa5.auf.apiTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.techmeskills.aqa5.auf.apiTest" />
+      <option name="MAIN_CLASS_NAME" value="org.techmeskills.aqa5.auf.apiTest.apiTestLombok" />
+      <option name="METHOD_NAME" value="updatePatch" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -165,11 +165,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.apiTest.singleResource" />
-        <item itemvalue="TestNG.apiTest.singleUserNotFound" />
-        <item itemvalue="TestNG.apiTest.singleUser" />
-        <item itemvalue="TestNG.SmokeTest_Lombok.login" />
-        <item itemvalue="TestNG.apiTest.delayedResponse" />
+        <item itemvalue="TestNG.apiTestLombok.loginUnsuccessful" />
+        <item itemvalue="TestNG.apiTestLombok.loginSuccessful" />
+        <item itemvalue="TestNG.apiTestLombok.registerUnsuccessful" />
+        <item itemvalue="TestNG.apiTestLombok.registerSuccessful" />
+        <item itemvalue="TestNG.apiTestLombok.updatePatch" />
       </list>
     </recent_temporary>
   </component>
@@ -205,7 +205,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595503300324</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Add_Some_Checks_To_The apiTest">
+      <created>1595504024858</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1595504024858</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -224,7 +231,8 @@
     <MESSAGE value="REST_API" />
     <MESSAGE value="REST_API_2" />
     <MESSAGE value="Add LoginStepLombok, add ProjectLombok, add UserLombok and SmokeTest_Lombok" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add LoginStepLombok, add ProjectLombok, add UserLombok and SmokeTest_Lombok" />
+    <MESSAGE value="Add_Some_Checks_To_The apiTest" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add_Some_Checks_To_The apiTest" />
   </component>
   <component name="WindowStateProjectService">
     <state x="551" y="281" width="433" height="267" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1595503141368">
@@ -235,22 +243,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="133" y="162" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1595072863671" />
-    <state width="1493" height="271" key="GridCell.Tab.0.bottom" timestamp="1595503885737">
+    <state width="1493" height="271" key="GridCell.Tab.0.bottom" timestamp="1595504499915">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="271" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1595503885737" />
-    <state width="1493" height="271" key="GridCell.Tab.0.center" timestamp="1595503885737">
+    <state width="1493" height="271" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1595504499915" />
+    <state width="1493" height="271" key="GridCell.Tab.0.center" timestamp="1595504499915">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="271" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1595503885737" />
-    <state width="1493" height="271" key="GridCell.Tab.0.left" timestamp="1595503885737">
+    <state width="1493" height="271" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1595504499915" />
+    <state width="1493" height="271" key="GridCell.Tab.0.left" timestamp="1595504499914">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="271" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1595503885737" />
-    <state width="1493" height="271" key="GridCell.Tab.0.right" timestamp="1595503885737">
+    <state width="1493" height="271" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1595504499914" />
+    <state width="1493" height="271" key="GridCell.Tab.0.right" timestamp="1595504499915">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="271" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1595503885737" />
+    <state width="1493" height="271" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1595504499915" />
     <state width="730" height="258" key="GridCell.Tab.1.bottom" timestamp="1594576574388">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -271,10 +279,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1595502113227" />
-    <state x="361" y="132" key="Vcs.Push.Dialog.v2" timestamp="1595503302721">
+    <state x="361" y="132" key="Vcs.Push.Dialog.v2" timestamp="1595504027894">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="132" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1595503302721" />
+    <state x="361" y="132" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1595504027894" />
     <state x="60" y="189" key="run.anything.popup" timestamp="1595076262400">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
