@@ -20,8 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a084e8cc-c5ee-4a7b-8c4d-6e28f01732c6" name="Default Changelist" comment="REST_API_2">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/techmeskills/aqa5/auf/models/ProjectLombok.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/techmeskills/aqa5/auf/models/UserLombok.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/techmeskills/aqa5/auf/uiTests/SmokeTest_Lombok.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/techmeskills/aqa5/auf/apiTest/apiTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/techmeskills/aqa5/auf/apiTest/apiTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,9 +55,17 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/resources" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="org.techmeskills.aqa5.auf.models" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.techmeskills.aqa5.auf.models" />
       <recent name="org.techmeskills.aqa5.auf.core" />
       <recent name="org.techmeskills.aqa5.auf.baseEntity" />
     </key>
@@ -62,7 +73,25 @@
       <recent name="D:\Курсы\Project\AUF-advBasePage\src\test\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.apiTest.delayedResponse">
+  <component name="RunManager" selected="TestNG.SmokeTest_Lombok.login">
+    <configuration name="SmokeTest_Lombok.login" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestRail QA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.techmeskills.aqa5.auf.uiTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.techmeskills.aqa5.auf.uiTests" />
+      <option name="MAIN_CLASS_NAME" value="org.techmeskills.aqa5.auf.uiTests.SmokeTest_Lombok" />
+      <option name="METHOD_NAME" value="login" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="apiTest.delayedResponse" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestRail QA" />
       <extension name="coverage">
@@ -117,24 +146,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="apiTest.registerSuccessful" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TestRail QA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.techmeskills.aqa5.auf.apiTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.techmeskills.aqa5.auf.apiTest" />
-      <option name="MAIN_CLASS_NAME" value="org.techmeskills.aqa5.auf.apiTest.apiTest" />
-      <option name="METHOD_NAME" value="registerSuccessful" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="apiTest.registerUnsuccessful" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestRail QA" />
       <extension name="coverage">
@@ -155,11 +166,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.SmokeTest_Lombok.login" />
         <item itemvalue="TestNG.apiTest.delayedResponse" />
         <item itemvalue="TestNG.apiTest.loginUnsuccessful" />
         <item itemvalue="TestNG.apiTest.loginSuccessful" />
         <item itemvalue="TestNG.apiTest.registerUnsuccessful" />
-        <item itemvalue="TestNG.apiTest.registerSuccessful" />
       </list>
     </recent_temporary>
   </component>
@@ -209,6 +220,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="REST_API_2" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="551" y="281" width="433" height="267" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1595502978318">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="551" y="281" width="433" height="267" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824@0.0.1536.824" timestamp="1595502978318" />
     <state x="133" y="162" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1595072863671">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -245,6 +260,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="730" height="258" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1594576574388" />
+    <state x="249" y="0" key="SettingsEditor" timestamp="1595502113227">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1595502113227" />
     <state x="361" y="132" key="Vcs.Push.Dialog.v2" timestamp="1595083145099">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
