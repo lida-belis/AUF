@@ -2,11 +2,9 @@ package org.techmeskills.aqa5.auf.uiTests;
 
 import org.openqa.selenium.*;
 import org.techmeskills.aqa5.auf.baseEntity.BaseTest;
-import org.techmeskills.aqa5.auf.models.User;
 import org.techmeskills.aqa5.auf.models.UserLombok;
 import org.techmeskills.aqa5.auf.pages.administration.ProjectsPage;
 import org.techmeskills.aqa5.auf.steps.AdministrationStep;
-import org.techmeskills.aqa5.auf.steps.LoginStep;
 import org.techmeskills.aqa5.auf.steps.LoginStepLombok;
 import org.techmeskills.aqa5.auf.steps.ProjectStep;
 import org.testng.Assert;
