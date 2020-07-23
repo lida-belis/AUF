@@ -36,8 +36,8 @@ public class apiTest extends BaseApiTest {
                 .get(endpoint)
         .then()
                 .log().body()
+                .body("data.id", is(2))
 //                .body("id", is(2))
-//                Не знаю, почему не проходит! В тестах, которых нету проверки, та же самая проблема
                 .statusCode(HttpStatus.SC_OK);
     }
 
@@ -75,6 +75,7 @@ public class apiTest extends BaseApiTest {
                 .get(endpoint)
         .then()
                 .log().body()
+                .body("data.id", is(2))
                 .statusCode(HttpStatus.SC_OK);
     }
 
